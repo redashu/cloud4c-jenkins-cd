@@ -19,7 +19,7 @@ spec:
         app: ashu-appweb
     spec:
       containers:
-      - image: dockerashu/ashuweb:sec-check16
+      - image: dockerashu/ashusec:version13 # updating image 
         name: ashuweb
         ports:
         - containerPort: 80
